@@ -1,0 +1,14 @@
+<section id="trends" class="container landing-page-block">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" *ngFor="let column of trending.categories">
+            <div class="trend {{column.style}}" [ngStyle]="{'background-image':'url('+column.image.url+')'}">
+                <div class="trend-detail">
+                    <h5 class="theme--heading-font">{{ column.label }}</h5>
+                    <p class="trend-name theme--heading-font">{{ column.lead }}</p>
+                    <p class="trend-about">{{ column.description }}</p>
+                    <a class="trend-discover" href="{{ column.url }}">Discover</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

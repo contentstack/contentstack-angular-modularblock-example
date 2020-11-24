@@ -1,0 +1,15 @@
+<section id="features" class="container landing-page-block">
+    <hr class="top">
+    <header>
+        <h2 class="theme--heading-font">{{ features.title }}</h2>
+        <p class="subtitle">{{ features.subtitle }}</p>
+    </header>
+    <div class="row">
+        <div *ngFor="let column of features.columns" class='col-xs-12 col-sm-6 col-md-2 col-lg-2'>
+            <span class="circle ion-md-{{ column.icon }}"></span>
+            <p class="feature-name">{{ column.title }}</p>
+            <p class="feature-details">{{ column.subtitle }}</p>
+        </div>
+    </div>
+    <hr class="bottom">
+</section>

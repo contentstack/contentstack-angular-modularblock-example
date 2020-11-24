@@ -1,0 +1,21 @@
+<section id="products" class="container landing-page-block">
+    <header>
+        <h2 class="theme--heading-font">{{ products.title }}</h2>
+        <p class="subtitle">{{ products.subtitle }}</p>
+    </header>
+    <div class="row">
+        <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3 product' *ngFor="let product of products.reference">
+            <a class="product-link" href="{{ product.url }}">
+                <header>
+                    <span class="chip hot">hot</span>
+                    <img class="img-responsive" src="{{ product.featured_image[0].url }}?width=249&height=249&fit=crop">
+                </header>
+                <footer>
+                    <h5>{{ product.categories[0].title }}</h5>
+                    <p class="product-name">{{ product.title }}</p>
+                    <p class="product-price"><span class="now">$400</span><span class="was">$120.00</span></p>
+                </footer>
+            </a>
+        </div>
+    </div>
+</section>

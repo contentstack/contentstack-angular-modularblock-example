@@ -1,0 +1,44 @@
+<div *ngIf="(entryText | json) != '{}'" id="landing-page">
+    <header id="page-header" [ngStyle]="{'background-image':'url('+entryText.background_image.url+')'}">
+        <div class="page-header-bground theme--brand-primary-color-background"></div>
+
+        <section id="member-header" class="container">
+            <div class="row">
+                <div class="col-lg-6 member-header-content member-header-shadow">
+                    <div class="member-header-social">
+                        <i class="fa fa-facebook-official"></i>
+                        <i class="fa fa-twitter-square"></i>
+                    </div>
+                </div>
+                <div class="col-lg-6 member-header-content">
+                    <hr>
+                    <h2 [innerHTML]="entryText.c2a.heading"></h2>
+                    <footer>
+                        <p>{{ entryText.c2a.lead }}</p>
+                        <button type="submit" class="signup">{{ entryText.c2a.button.title }}</button>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <app-category-sales *ngIf="entryText.modular_blocks[0].category_sales"
+            [salescategory]=entryText.modular_blocks[0].category_sales> </app-category-sales>
+
+    </header>
+
+    <div *ngIf="entryText.modular_blocks.length" class="modular-blocks">
+        <div *ngFor="let modular_block of entryText.modular_blocks">
+
+            <app-trending *ngIf="modular_block.trending" [trending]=modular_block.trending> </app-trending>
+
+            <app-products *ngIf="modular_block.products" [products]=modular_block.products> </app-products>
+
+            <app-features *ngIf="modular_block.features" [features]=modular_block.features> </app-features>
+
+            <app-text-area *ngIf="modular_block.text_area" [textarea]=modular_block.text_area> </app-text-area>
+
+            <app-form *ngIf="modular_block.form" [title]=modular_block.form.title [subtitle]=modular_block.form.subtitle
+                [icon]=modular_block.form.icon> </app-form>
+        </div>
+    </div>
+</div>

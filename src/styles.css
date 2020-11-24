@@ -1,0 +1,89 @@
+#landing-page div[class^="col-"] {
+  margin-bottom: 1em;
+}
+
+#landing-page .img-responsive {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#landing-page .landing-page-block {
+  padding: 2em 3em;
+  position: relative;
+  background: #fff;
+}
+
+#global-widgets div[class^="col-"] {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+* {
+  font-family: Open Sans;
+}
+
+.theme--heading-font {
+  font-family: Montserrat, sans-serif;
+}
+
+.theme--brand-primary-color {
+  color: #d4c694;
+}
+
+.theme--brand-primary-color-background {
+  background: #d4c694;
+}
+
+.theme--brand-trinary-color {
+  color: #064a59;
+}
+
+.theme--brand-trinary-color-background {
+  background: #064a59;
+}
+
+.theme--default-background {
+  background: #fff
+}
+
+.theme--default-background {
+  background: #fff
+}
+
+.theme--alternate-background {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(212, 198, 148, 1) 100%)
+}
+
+.theme--menu-background {
+  background: #000;
+}
+
+.theme--menu-text-color, .theme--menu-link-color {
+  color: #fff;
+}
+
+.sd-menu-link:hover .theme--menu-link-color:after, .sd-menu-link:hover .theme--menu-text-color:after, .sd-menu-dropdown:hover .theme--menu-link-color:after, .sd-menu-dropdown:hover .theme--menu-text-color:after {
+  background: #fff;
+}
+
+.theme--menu-content-background {
+  background: #e8e8e9;
+}
+
+.theme--menu-content-link-color {
+  color: #000;
+}
+
+.theme--menu-content-heading-color {
+  color: #000;
+}
+
+.theme--menu-content-heading-color:after {
+  background: #000;
+}
+
+.theme--menu-content-link-color:hover {
+  color: #a5996d;
+}
