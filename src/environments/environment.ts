@@ -9,7 +9,8 @@ export const environment = {
 export const Config = {
   api_key: '',
   delivery_token: '',
-  environment: ''
+  environment: '',
+  region: ''
 };
 /*
  * For easier debugging in development mode, you can import the following file
