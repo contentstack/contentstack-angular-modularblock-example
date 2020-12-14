@@ -5,7 +5,7 @@
     </header>
     <div class="row">
         <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3 product' *ngFor="let product of products.reference">
-            <a class="product-link" href="{{ product.url }}">
+            <a class="product-link">
                 <header>
                     <span class="chip hot">hot</span>
                     <img class="img-responsive" src="{{ product.featured_image[0].url }}?width=249&height=249&fit=crop">
@@ -13,7 +13,8 @@
                 <footer>
                     <h5>{{ product.categories[0].title }}</h5>
                     <p class="product-name">{{ product.title }}</p>
-                    <p class="product-price"><span class="now">$400</span><span class="was">$120.00</span></p>
+                    <p class="product-price"><span class="now">${{ product.price }}</span>
+                    </p>
                 </footer>
             </a>
         </div>

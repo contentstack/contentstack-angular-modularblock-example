@@ -19,6 +19,7 @@
     "@angular/core": "11.0.2",
     "@angular/platform-browser": "11.0.2",
     "@angular/platform-browser-dynamic": "11.0.2",
+    "@angular/router": "11.0.4",
     "contentstack": "3.11.0",
     "ionicons": "4.6.3",
     "rxjs": "6.6.0",

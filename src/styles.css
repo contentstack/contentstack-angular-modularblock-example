@@ -87,3 +87,7 @@
 .theme--menu-content-link-color:hover {
   color: #a5996d;
 }
+
+body {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(212,198,148,1) 100%)
+}

@@ -7,10 +7,10 @@ export const environment = {
 };
 
 export const Config = {
-  api_key: '',
-  delivery_token: '',
-  environment: '',
-  region: ''
+  api_key: 'blt75b5b5703fe3a6b7',
+  delivery_token: 'csa47bc2ae897d4a5dbc10fb96',
+  environment: 'production',
+  region: 'us'
 };
 /*
  * For easier debugging in development mode, you can import the following file
