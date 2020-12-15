@@ -1,6 +1,5 @@
-
 export const environment = {
-  production: false,
+  production: true,
   config: {
     api_key: '',
     delivery_token: '',
