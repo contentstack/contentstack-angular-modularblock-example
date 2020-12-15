@@ -8,7 +8,7 @@ import { TrendingComponent } from './modular-block/trending/trending.component';
 import { FeaturesComponent } from './modular-block/features/features.component';
 import { TextAreaComponent } from './modular-block/text-area/textarea.component';
 import { FormComponent } from './modular-block/form/form.component';
-import { Config } from '../environments/environment';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { Config } from '../environments/environment';
     TextAreaComponent,
     FormComponent,
   ],
-  imports: [BrowserModule, ContentstackModule.initializeApp(Config)],
+  imports: [BrowserModule, ContentstackModule.initializeApp(environment.config)],
   providers: [],
   bootstrap: [AppComponent],
 })
