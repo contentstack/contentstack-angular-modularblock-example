@@ -9,7 +9,7 @@
 **About this project**: We have built a Shopping app by using Angular.js and the Modular Blocks feature of Contentstack.
 
 
-![banner](https://images.contentstack.io/v3/assets/blt70c731799f445632/blt3f8462a4ad0c3a51/5fd8e3bbe5f85744d50f4a14/angular.gif "banner.png")
+![banner](https://images.contentstack.io/v3/assets/blt70c731799f445632/blt71a7e9ada9edf0cc/5fd9dfc1b529867fcec23501/angular.png "banner.png")
 
 ## Live Demo
 
