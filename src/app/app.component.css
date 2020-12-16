@@ -51,7 +51,7 @@
   margin-bottom: 2em;
 }
 
-#member-header footer button.signup {
+#member-header footer a.signup {
   background: 0 0;
   border: 2px solid #d4c694;
   color: #bfb387;
@@ -59,4 +59,5 @@
   letter-spacing: 0.03em;
   padding: 1em 2em;
   text-transform: uppercase;
+  text-decoration: none;
 }

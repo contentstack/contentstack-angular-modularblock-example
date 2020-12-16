@@ -49,3 +49,19 @@
   font-size: 4em;
   color: white;
 }
+
+#newsletter .newsletter-form .subscribe {
+  background: 0 0;
+  border: 2px solid #d4c694;
+  color: #bfb387;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.3em 1em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0px 0px 0px 10px;
+}
+
+.subscribe:hover {
+  text-decoration: none;
+}
