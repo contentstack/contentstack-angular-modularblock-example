@@ -19,4 +19,4 @@ You can check the [live demo](https://angular-modularblock-sample.vercel.app) to
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
-[Learn how to Build a Single Page E-Commerce App Using Contentstack and Angular](https://www.contentstack.com/docs/developers/sample-apps/build-a-single-page-e-commerce-app-using-contentstack-and-angular)
+[Learn how to Build a Single Page E-Commerce App Using Contentstack and Angular](https://www.contentstack.com/docs/developers/sample-apps/build-a-single-page-ecommerce-app-using-contentstack-and-angular)
