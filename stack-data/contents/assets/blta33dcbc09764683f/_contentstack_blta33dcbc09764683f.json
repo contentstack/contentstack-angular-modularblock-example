@@ -1,0 +1,37 @@
+[
+    {
+        "uid": "blta33dcbc09764683f",
+        "content_type": "image/jpeg",
+        "file_size": "2164636",
+        "tags": [
+            "flooring",
+            "wood",
+            "hardwood",
+            "floor",
+            "plywood",
+            "apparel",
+            "clothing"
+        ],
+        "filename": "cover_bg_1.jpg",
+        "url": "https://images.contentstack.io/v3/assets/<api_key>/<asset_uid>/<entity_uid>/<asset_name>",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": "blt6c5fc86ca7f568d4",
+        "_version": 1,
+        "title": "cover_bg_1.jpg",
+        "publish_details": [
+            {
+                "environment": "bltb3e1a442493eacd9",
+                "locale": "en-us",
+                "time": "2020-10-26T09:26:26.768Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3b558e8b471c9c88",
+                "locale": "en-us",
+                "time": "2020-10-26T09:26:26.768Z",
+                "version": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "uid": "blt761e8d046343f086",
+        "content_type": "image/svg+xml",
+        "file_size": "500",
+        "tags": [],
+        "filename": "combined-shape_(1).svg",
+        "url": "https://images.contentstack.io/v3/assets/<api_key>/<asset_uid>/<entity_uid>/<asset_name>",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": "blt62ab02ba0a6eff04",
+        "_version": 1,
+        "title": "combined-shape_(1).svg",
+        "publish_details": [
+            {
+                "environment": "bltb3e1a442493eacd9",
+                "locale": "en-us",
+                "time": "2020-10-26T09:17:02.219Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3b558e8b471c9c88",
+                "locale": "en-us",
+                "time": "2020-10-26T09:17:02.219Z",
+                "version": 1
+            }
+        ]
+    }
+]
