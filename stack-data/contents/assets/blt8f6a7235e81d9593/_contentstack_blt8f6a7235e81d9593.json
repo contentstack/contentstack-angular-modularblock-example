@@ -1,0 +1,38 @@
+[
+    {
+        "uid": "blt8f6a7235e81d9593",
+        "content_type": "image/jpeg",
+        "file_size": "3353734",
+        "tags": [
+            "shoe",
+            "apparel",
+            "footwear",
+            "clothing",
+            "human",
+            "person",
+            "shopping",
+            "pants"
+        ],
+        "filename": "trending_man.jpg",
+        "url": "https://images.contentstack.io/v3/assets/<api_key>/<asset_uid>/<entity_uid>/<asset_name>",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": "blt6c5fc86ca7f568d4",
+        "_version": 1,
+        "title": "trending_man.jpg",
+        "publish_details": [
+            {
+                "environment": "bltb3e1a442493eacd9",
+                "locale": "en-us",
+                "time": "2020-10-26T09:17:43.209Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3b558e8b471c9c88",
+                "locale": "en-us",
+                "time": "2020-10-26T09:17:43.209Z",
+                "version": 1
+            }
+        ]
+    }
+]
