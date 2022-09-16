@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "contentstack": "3.15.2",
-    "ionicons": "4.6.3",
+    "ionicons": "6.0.3",
     "rxjs": "6.6.0",
     "tslib": "2.0.0",
     "zone.js": "0.10.3"
