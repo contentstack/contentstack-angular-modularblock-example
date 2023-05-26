@@ -1,6 +1,6 @@
 {
   "name": "@contentstack/angular-modular-block-example",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "Author": "Contentstack",
   "description": "Example project on how to use modular-block with contentstack.",
   "license": "MIT",
@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start": "ng serve",
-    "build": "npm run config && ng build",
+    "start": "npm run config && ng serve",
+    "build": "npm run config && npm run ng build",
     "config": "ts-node setenv.ts"
   },
   "private": true,
@@ -21,6 +21,7 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "contentstack": "3.15.2",
+    "dotenv": "^16.0.3",
     "ionicons": "4.6.3",
     "rxjs": "6.6.0",
     "tslib": "2.0.0",
