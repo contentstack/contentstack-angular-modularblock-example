@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "contentstack-modular-block-example"
+  "defaultProject": "contentstack-modular-block-example",
+  "cli": {
+    "analytics": false
+  }
 }
